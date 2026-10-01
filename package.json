@@ -1,0 +1,17 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "rpg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rpg": "rpg"
+  },
+  "dependencies": {
+    "rpg": "^0.1.1",
+    "vite": "^8.3.2"
+  }
+}
