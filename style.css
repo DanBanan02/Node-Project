@@ -1,0 +1,106 @@
+
+:root
+{
+    background-color: hwb(0 0% 100%);
+    font-family: "Isometra", sans-serif;
+
+    border-radius: 4px;
+    border-width: 24px;
+    border-color:  hwb(0 0% 100%);
+    border-style: solid;
+
+}
+
+h2
+{
+        background: linear-gradient(
+        37deg,
+        red,
+        yellow,
+        green);
+
+        border-radius: 8px;
+        border-width: 5px;
+        border-color: black;
+        border-style:solid;
+
+        display: flex;
+        justify-content: center;
+        -webkit-text-stroke: 0.1px lab(69.24% 0 -0.01);
+
+}
+
+.PWG
+{
+    display: grid;
+ /*    grid-template-columns: 3;
+    grid-template-rows: 3; */
+}
+
+#password-length
+{
+    font-family: "Isometra", sans-serif;
+    background-color: hsl(87, 81%, 79%);
+    font-weight: bold;
+    width: 45px;
+
+    border-radius: 8px;
+    border-width: 3.5px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+#generate-btn
+{
+    display:flex;
+    justify-content: center;
+    border-radius: 12px;
+    border-width: 3px;
+    border-color: hwb(221 2% 26%);
+    border-style: solid;
+
+    font-family: "Isometra", sans-serif;
+    
+    background-color:hsl(0, 85%, 40%);
+    box-shadow: 2px 2px 6px 1px black;
+
+    width: 100px;
+    height: 25px;
+
+    margin-left:37%
+    
+}
+
+#generate-btn:hover
+{
+    border-radius: 12px;
+    background-color:#dee45a;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+#generate-btn:active
+{
+    border-radius: 12px;
+    background-color:#19b90a;
+    box-shadow: 0px 0px 6px black;
+}
+
+#password-output
+{
+    font-family: "Isometra", sans-serif;
+
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+
+    background-color:lab(84.42% 0.02 46.43);
+}
+
+#textBox
+{
+    color: red;
+    -webkit-text-stroke: 1px black;
+
+}
