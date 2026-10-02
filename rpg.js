@@ -3,6 +3,7 @@ import rpg from "rpg"
 const lengthInput = document.getElementById("password-length")
 const generateBtn = document.getElementById("generate-btn")
 const passwordOutput = document.getElementById("password-output")
+const copyBtn = document.getElementById("Copy-btn")
 
 // > '=TM;:XUv78M['
 rpg({length: 16}) // > '&[(OF~Kk,-8TNF0H'
@@ -23,6 +24,20 @@ generateBtn.addEventListener("click", () => {
     passwordOutput.value =
         password
 
+})
+
+copyBtn.addEventListener("click", async ()=>{
+    passwordOutput.select()
+
+     await navigator.clipboard.writeText(
+        passwordOutput.value
+    )
+
+    copyBtn.textContent = "Password copied!"
+    setTimeout(() => {
+        copyBtn.textContent = "Copy Password"
+
+    }, 2000)
 })
 
 console.log(
