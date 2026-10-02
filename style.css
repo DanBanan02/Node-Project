@@ -9,6 +9,9 @@
     border-color:  hwb(0 0% 100%);
     border-style: solid;
 
+    margin-left: 50vh;
+    margin-right: 50vh;
+
 }
 
 h2
@@ -28,6 +31,8 @@ h2
         justify-content: center;
         -webkit-text-stroke: 0.1px lab(69.24% 0 -0.01);
 
+        padding-bottom: 12px;
+        padding-top: 12px;
 }
 
 .PWG
@@ -42,7 +47,7 @@ h2
     font-family: "Isometra", sans-serif;
     background-color: hsl(87, 81%, 79%);
     font-weight: bold;
-    width: 45px;
+    width: 60px;
 
     border-radius: 8px;
     border-width: 3.5px;
@@ -68,7 +73,9 @@ h2
     width: 100px;
     height: 25px;
 
-    margin-left:37%
+    margin-left:37%;
+
+    position:relative;
     
 }
 
@@ -91,11 +98,11 @@ h2
     font-family: "Isometra", sans-serif;
 
     border-radius: 10px;
-    border-color: black;
+    border-color: oklab(80.864% 0.01579 0.16193);
     border-width: 5px;
     border-style: solid;
 
-    background-color:lab(84.42% 0.02 46.43);
+    background-color:lch(84.96% 39.09 90.37);
 }
 
 #textBox
@@ -135,4 +142,9 @@ h2
     gap: 80px;
     margin-right: 100px;
     margin-top: 20px;
+}
+
+#txt-area
+{
+
 }
