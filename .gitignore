@@ -1,7 +1,0 @@
-*.html
-*.json
-*.js
-*.css
-
-node_modules/
-RandomPass/
